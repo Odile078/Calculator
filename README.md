@@ -10,7 +10,7 @@ This is a calcualtor app created using JavaScript.
 This is a calcualtor app created using JavaScript.
 
 ## Live Website
-(https://odile078.github.io/CAlculator/)
+(https://odile078.github.io/Calculator/)
 
 
 ## Installation / Setup instruction
