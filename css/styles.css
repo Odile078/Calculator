@@ -1,0 +1,39 @@
+*, *::before,*::after{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(148, 198, 241);
+}
+.title{
+    text-align: center;
+    
+}
+.calculator{
+    margin-left: 30%;
+    width: 40%;
+    border: 4px solid rgb(5, 11, 34);
+    align-content: center;
+}
+
+button{
+    width: 50px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.equal{
+    justify-content: center;
+    align-items: center;
+}
+.answer{
+    background-color: rgb(155, 241, 213);
+    height: 100px;
+}
+@media (min-width: 576px) {
+    .calculator{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%; 
+    }
+}
